@@ -40,7 +40,11 @@ $ python parser_module.py -d trace -o myoutput.csv
 
 ``` 
 
+## Classification
 
+If you have done all the privious steps right, the rest is simple. A code sample is provided on how the training and testing should work. 
+```outguard_classifier.py```basically receives the training/labeled dataset as well as the unlabeled set in csv formats, and print out the 
+classification results for the unlabled set. Some samples are provides.
 
 
 ## Citation 
@@ -56,4 +60,4 @@ $ python parser_module.py -d trace -o myoutput.csv
 }
 ```
 ## Contacts
-Please send an email to kharraz@illinois.edu if you have any questions. 
+Please send an email to kharraz(AT)illinois(DOT)edu if you have any questions. 
